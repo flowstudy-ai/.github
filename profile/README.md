@@ -6,9 +6,10 @@ Projetos abertos para transformar IA e automação em ferramentas práticas, com
 
 A [Trilha Hermes](https://github.com/flowstudy-ai/hermes-kits) reúne kits independentes para instalar capacidades específicas no Hermes Agent sem criar dependência de uma plataforma paralela.
 
-### Primeiro kit
+### Kits
 
 - [Hermes Knowledge Kit](https://github.com/flowstudy-ai/hermes-knowledge-kit) — conhecimento Markdown recuperável, auditável e portátil, com instalação reversível.
+- [Hermes Oracle Kit](https://github.com/flowstudy-ai/hermes-oracle-kit) — oráculo local de docs, skills e flows, sob demanda e reversível.
 
 ## Como trabalhamos
 
