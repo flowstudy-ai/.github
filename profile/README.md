@@ -1,36 +1,51 @@
 # FlowStudy
 
-Pasta pública do que prestou no Hermes e vale copiar: na próxima VPS, ou por quem quiser usar.
+Aqui fica o que a gente testou usando o [Hermes Agent](https://hermes-agent.nousresearch.com/docs/) e decidiu guardar porque funcionou.
 
-Não é outro Hermes. É acessório.
+Não é outro Hermes, não é curso e não é coleção de promessa bonita. São peças pequenas, com código aberto, limite explicado e um jeito claro de testar.
 
-## Trilha Hermes
+Se funciona, entra. Se é só ideia com maquiagem, fica de fora.
 
-O índice está em [hermes-kits](https://github.com/flowstudy-ai/hermes-kits). Duas gavetas:
+## O que tem aqui
 
-**Kit** — peça que se instala e se tira.
+Publicamos dois tipos de coisa: **kits** e **receitas**.
 
-- [Knowledge](https://github.com/flowstudy-ai/hermes-knowledge-kit) — seus `.md` ficam organizados para o agente achar de novo.
-- [Oracle](https://github.com/flowstudy-ai/hermes-oracle-kit) — o agente consulta a documentação do Hermes **nesta máquina**, sem inventar. Dá para tirar depois.
+### Kits
 
-**Receita** — instrução para o agente (skill + prompt). Não é instalador.
+Kit mexe na instalação do Hermes para resolver um problema específico. Por isso precisa ter diagnóstico, teste sem estragar nada e caminho para desfazer.
 
-- [Briefing de grupos WhatsApp](https://github.com/flowstudy-ai/hermes-recipes/tree/main/whatsapp-briefing) — um recado por dia, em português claro, a partir do que entrou nos grupos.
-- [Escada de pesquisa web](https://github.com/flowstudy-ai/hermes-recipes/tree/main/web-research-ladder) — busca de graça, página paga, arquivo se bloquear.
-- [Ver todas as receitas](https://github.com/flowstudy-ai/hermes-recipes) — catálogo completo.
+- [**Knowledge**](https://github.com/flowstudy-ai/hermes-knowledge-kit) organiza seus arquivos Markdown para o agente encontrar decisões, projetos e referências sem sair cavando pasta no escuro.
+- [**Oracle**](https://github.com/flowstudy-ai/hermes-oracle-kit) mantém uma cópia pesquisável da documentação do Hermes. Quando o agente tiver dúvida sobre o próprio sistema, consulta a fonte antes de inventar moda.
 
-## VPS nova
+### Receitas
 
-1. Abra o [índice](https://github.com/flowstudy-ai/hermes-kits).
-2. Kit: leia o limite → `doctor` → dry-run → instale.
-3. Receita: copie a skill e o prompt; faça o passo humano que o README pedir.
+Receita não instala serviço nem conecta conta. É uma skill com instruções para o agente executar bem uma tarefa repetível.
 
-## Como trabalhamos
+- [**Briefing de grupos WhatsApp**](https://github.com/flowstudy-ai/hermes-recipes/tree/main/whatsapp-briefing) transforma as mensagens já coletadas dos grupos em um único resumo diário, curto e legível. Não conecta o WhatsApp e não lê conta alheia.
+- [**Escada de pesquisa web**](https://github.com/flowstudy-ai/hermes-recipes/tree/main/web-research-ladder) ensina o agente a pesquisar sem torrar crédito: busca gratuita primeiro, extração só na página escolhida e arquivo ou browser quando houver bloqueio.
+- [**Ver todas as receitas**](https://github.com/flowstudy-ai/hermes-recipes) abre o catálogo completo.
 
-- peças pequenas;
-- português claro;
-- exemplo fictício, sem senha no git;
-- prova antes de ufanar;
-- issue e pull request abertos.
+## Como usar
 
-> FlowStudy é independente. Hermes Agent é da Nous Research.
+1. Escolha o problema que você quer resolver.
+2. Abra o repositório e leia primeiro o que ele **não faz**.
+3. Se for kit, rode o diagnóstico e o dry-run antes de instalar.
+4. Se for receita, copie a skill e ajuste somente a configuração local necessária.
+5. Teste no seu ambiente antes de confiar trabalho importante à peça.
+
+Sem botão mágico. Se alguma etapa depende de chave, QR, conta ou decisão humana, o README precisa dizer isso sem enrolação.
+
+## O que precisa acontecer antes de entrar aqui
+
+- Foi usado de verdade, não apenas imaginado.
+- Tem instrução em português claro.
+- Não leva senha, conversa ou dado privado para o Git.
+- Explica os limites sem esconder a parte chata.
+- Tem uma forma concreta de verificar se funcionou.
+- Se altera a instalação, também explica como desfazer.
+
+A régua é simples: **prova antes de propaganda**.
+
+## Independência
+
+A FlowStudy é um projeto independente. O Hermes Agent é desenvolvido pela [Nous Research](https://nousresearch.com/).
