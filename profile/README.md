@@ -13,9 +13,11 @@ O índice está em [hermes-kits](https://github.com/flowstudy-ai/hermes-kits). D
 - [Knowledge](https://github.com/flowstudy-ai/hermes-knowledge-kit) — seus `.md` ficam organizados para o agente achar de novo.
 - [Oracle](https://github.com/flowstudy-ai/hermes-oracle-kit) — o agente consulta a documentação do Hermes **nesta máquina**, sem inventar. Dá para tirar depois.
 
-**Receita** — instrução para o agente (skill + texto do cron). O que o Hermes não instala (QR, chip, conta) continua na sua mão.
+**Receita** — instrução para o agente (skill + prompt). Não é instalador.
 
-- [Receitas](https://github.com/flowstudy-ai/hermes-recipes) — catálogo. Começa com o briefing diário de grupos WhatsApp.
+- [Briefing de grupos WhatsApp](https://github.com/flowstudy-ai/hermes-recipes/tree/main/whatsapp-briefing) — um recado por dia, em português claro, a partir do que entrou nos grupos.
+- [Escada de pesquisa web](https://github.com/flowstudy-ai/hermes-recipes/tree/main/web-research-ladder) — busca de graça, página paga, arquivo se bloquear.
+- [Ver todas as receitas](https://github.com/flowstudy-ai/hermes-recipes) — catálogo completo.
 
 ## VPS nova
 
