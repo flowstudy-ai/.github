@@ -1,22 +1,34 @@
 # FlowStudy
 
-Projetos abertos para transformar IA e automação em ferramentas práticas, compreensíveis e verificáveis.
+Pasta pública do que prestou no Hermes e vale copiar: na próxima VPS, ou por quem quiser usar.
+
+Não é outro Hermes. É acessório.
 
 ## Trilha Hermes
 
-A [Trilha Hermes](https://github.com/flowstudy-ai/hermes-kits) reúne kits independentes para instalar capacidades específicas no Hermes Agent sem criar dependência de uma plataforma paralela.
+O índice está em [hermes-kits](https://github.com/flowstudy-ai/hermes-kits). Duas gavetas:
 
-### Kits
+**Kit** — peça que se instala e se tira.
 
-- [Hermes Knowledge Kit](https://github.com/flowstudy-ai/hermes-knowledge-kit) — conhecimento Markdown recuperável, auditável e portátil, com instalação reversível.
-- [Hermes Oracle Kit](https://github.com/flowstudy-ai/hermes-oracle-kit) — oráculo local de docs, skills e flows, sob demanda e reversível.
+- [Knowledge](https://github.com/flowstudy-ai/hermes-knowledge-kit) — seus `.md` ficam organizados para o agente achar de novo.
+- [Oracle](https://github.com/flowstudy-ai/hermes-oracle-kit) — o agente consulta a documentação do Hermes **nesta máquina**, sem inventar. Dá para tirar depois.
+
+**Receita** — instrução para o agente (skill + texto do cron). O que o Hermes não instala (QR, chip, conta) continua na sua mão.
+
+- [Receitas](https://github.com/flowstudy-ai/hermes-recipes) — catálogo. Começa com o briefing diário de grupos WhatsApp.
+
+## VPS nova
+
+1. Abra o [índice](https://github.com/flowstudy-ai/hermes-kits).
+2. Kit: leia o limite → `doctor` → dry-run → instale.
+3. Receita: copie a skill e o prompt; faça o passo humano que o README pedir.
 
 ## Como trabalhamos
 
-- soluções pequenas e reutilizáveis;
-- documentação em português;
-- exemplos fictícios e segurança explícita;
-- testes e evidências antes da publicação;
-- contribuição aberta por issues e pull requests.
+- peças pequenas;
+- português claro;
+- exemplo fictício, sem senha no git;
+- prova antes de ufanar;
+- issue e pull request abertos.
 
-> FlowStudy é uma iniciativa independente. Hermes Agent é um projeto da Nous Research.
+> FlowStudy é independente. Hermes Agent é da Nous Research.
