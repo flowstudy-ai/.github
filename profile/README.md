@@ -23,6 +23,7 @@ Receita não instala serviço nem conecta conta. É uma skill com instruções p
 
 - [**Briefing de grupos WhatsApp**](https://github.com/flowstudy-ai/hermes-recipes/tree/main/whatsapp-briefing) transforma as mensagens já coletadas dos grupos em um único resumo diário, curto e legível. Não conecta o WhatsApp e não lê conta alheia.
 - [**Escada de pesquisa web**](https://github.com/flowstudy-ai/hermes-recipes/tree/main/web-research-ladder) ensina o agente a pesquisar sem torrar crédito: busca gratuita primeiro, extração só na página escolhida e arquivo ou browser quando houver bloqueio.
+- [**Obsidian no GitHub**](https://github.com/flowstudy-ai/hermes-recipes/tree/main/obsidian-github) liga o Obsidian no computador ao mesmo repositório privado de notas que o Hermes lê na VPS. Não instala o Obsidian e não cria conta no GitHub.
 - [**Ver todas as receitas**](https://github.com/flowstudy-ai/hermes-recipes) abre o catálogo completo.
 
 ## Como usar
